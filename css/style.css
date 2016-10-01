@@ -3,15 +3,29 @@ body {
 }
 
 .portfolioFilter a {
-    margin-right: 10px;
+  margin-right: 10px;
 	color:#666;
 	text-decoration:none;
+
+}
+
+.portfolioContainer {
+  width: 1000px;
+  height: 1000px;
+  margin: auto;
+
 }
 
 .portfolioFilter a.current {
     font-weight:bold;
+
 }
 
+.portfolioFilter {
+  width: 1000px;
+  height: 100px;
+  margin: auto;
+}
 
 img {
     margin:5px;
@@ -28,7 +42,7 @@ img {
 .isotope .isotope-item {
   /* change duration value to whatever you like */
 
-    -webkit-transition-duration: 0.8s;
+    -webkit-transition-duration: 0.4s;
     -moz-transition-duration: 0.8s;
     transition-duration: 0.8s;
 }
